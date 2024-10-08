@@ -14,6 +14,7 @@ class Book
         Console.WriteLine($"Book title: {Title}");
         Console.WriteLine($"Book Author: {Author}");
         Console.WriteLine($"Book ISBN: {ISBN}");
+        Console.WriteLine($"Number of Pages {NoOfPages}");
     }
         static void Main(string[] args)
     {
