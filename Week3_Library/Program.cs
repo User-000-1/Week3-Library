@@ -15,7 +15,7 @@ class Book
         Console.WriteLine($"Book Author: {Author}");
         Console.WriteLine($"Book ISBN: {ISBN}");
     }
-        static void main(string[] args)
+        static void Main(string[] args)
     {
         Book book = new Book();
         book.Title = "C# for beginners";
