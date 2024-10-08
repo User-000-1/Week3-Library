@@ -33,7 +33,7 @@ class Book
         static void Main(string[] args)
     {
         Book book = new Book("C# for beginners", "Bill Gates", "1234567", 200);
-        Book book2 = new Book("C# for beginners", "Bill Gates", "1234567", 200);
+        Book book2 = new Book("Visual Studio 2022", "Microsoft", "1234567", 50);
 
         book.DisplayInfo();
         book2.DisplayInfo();
