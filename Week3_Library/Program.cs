@@ -5,6 +5,7 @@ class Book
     string Title;
     string Author;
     string ISBN;
+    int NoOfPages;
 
     void DisplayInfo()
     {
@@ -17,14 +18,19 @@ class Book
         static void main(string[] args)
     {
         Book book = new Book();
-        Book.Title = "C# for beginners";
-        Book.Author = "Bill Gates";
-        Book.ISBN = "1234567";
+        book.Title = "C# for beginners";
+        book.Author = "Bill Gates";
+        book.ISBN = "1234567";
+        book.NoOfPages = 200;
 
-        Book Book2 = new Book();
-        Book.Title = "";
-        Book.Author = "";
-        Book.ISBN = "";
+        Book book2 = new Book();
+        book2.Title = "C# Second book";
+        book2.Author = "Microsoft";
+        book2.ISBN = "12345678";
+        book2.NoOfPages = 50;
+
+        book.DisplayInfo();
+        book2.DisplayInfo();
 
 
     }
